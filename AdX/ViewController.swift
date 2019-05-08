@@ -129,6 +129,7 @@ extension ViewController: RewardVideoAdXDelegate {
         let action = UIAlertAction(title: "閉じる", style: .default, handler: nil)
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
+        showButton?.isEnabled = false
     }
     
     func rewardVideo(_ rewardVideo: RewardVideoAdX, didCloseWithRewarded rewarded: Bool) {
@@ -137,6 +138,7 @@ extension ViewController: RewardVideoAdXDelegate {
         let action = UIAlertAction(title: "閉じる", style: .default, handler: nil)
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
+        showButton?.isEnabled = false
     }
     
 }
