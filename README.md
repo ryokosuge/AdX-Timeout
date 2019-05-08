@@ -1,6 +1,6 @@
 # Google Ad Manager timeout対応
 
-![screenshot](./resources/screenshot01.png)
+![screenshot](./resources/screenshot01.png =550x)
 
 現状はGoogle Ad Managerで用意されているテスト用のIDを使用しています。
 
